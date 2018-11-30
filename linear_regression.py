@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import pylab as pl
 import numpy as np
+%matplotlib inline
 
 #download the data.
 !wget -O FuelConsumption.csv https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv
