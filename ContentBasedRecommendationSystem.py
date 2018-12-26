@@ -1,3 +1,5 @@
+#Heres the link for the data zip file
+#"https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/moviedataset.zip".
 import zipfile
 with zipfile.ZipFile("D:\My Code\moviedataset.zip","r") as zip_ref:
     zip_ref.extractall("D:\My Code")
